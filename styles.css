@@ -1,0 +1,15 @@
+#booksDisplay {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}

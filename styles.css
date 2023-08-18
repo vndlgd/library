@@ -53,8 +53,12 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+button:hover not {
     background-color: var(--grey-hover);
+}
+
+.readButton {
+    background-color: var(--light-green);
 }
 
 #booksDisplay {
@@ -73,6 +77,8 @@ button:hover {
     border-radius: var(--border-radius);
     padding: var(--padding);
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     background-color: var(--white);

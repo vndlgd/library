@@ -2,7 +2,7 @@
 
 This Library project is a web-based application created as part of The Odin Project's Foundations course. It provides a simple way to manage your book collection by allowing you to add and display books.
 
-<img width="1422" alt="Screenshot 2023-09-25 at 9 24 30 PM" src="https://github.com/vndlgd/library/assets/46804151/dde773ee-7f31-495e-9676-174e15ac63f4">
+![Library Project](<img width="1422" alt="Screenshot 2023-09-25 at 9 24 30 PM" src="https://github.com/vndlgd/library/assets/46804151/dde773ee-7f31-495e-9676-174e15ac63f4">)
 
 ## Features
 

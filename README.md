@@ -20,7 +20,7 @@ This project is built using the following technologies:
 
 ## Usage
 
-1. Visit the [Library Project](https://vndlgd.github.io/library/) website.
+1. Visit the [Library](https://vndlgd.github.io/library/) website.
 
 2. Click the "+ Add Book" button to open the form.
 

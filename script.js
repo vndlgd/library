@@ -1,14 +1,17 @@
 let myLibrary = [];
 
-function Book(title, author, pages, read) {
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.read = read;
+class Book {
+    constructor(title, author, pages, read) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.read = read;
+    }
 
-    this.info = function () {
-        return `${title}\n${author}\n${pages} pages\n${read}`;
-    };
+    // Getter 
+    get info() {
+        return `${this.title}\n${this.author}\n${this.pages} pages\n${this.read}`;
+    }
 }
 
 function displayBooks() {
@@ -107,7 +110,7 @@ form.addEventListener("submit", (e) => {
     let read = document.getElementById("read").checked;
 
     let newBook = new Book(title, author, pages, read);
-    myLibrary.push(newBook.info());
+    myLibrary.push(newBook.info);
     displayBooks();
 
     // Clear the form inputs
